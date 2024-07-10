@@ -1,0 +1,2 @@
+n_loops serves to set the number of iterations k of RecViT network. Set k=1 for ordinary ViT
+n_repeat determines the number of repeated training (different network with the same parameters) to provide robust evaluations

@@ -1,0 +1,27 @@
+method: bayes
+metric:
+  name: accuracy
+  goal: maximize
+parameters:
+  lr:
+    distribution: log_uniform
+    min: -10
+    max: -2
+  lr_decay:
+    values:
+      - 0.99
+      - 0.96
+      - 0.93
+      - 0.90
+      - 0.87
+      - 0.84
+      - 0.81
+      - 0.78
+      - 0.75
+      - 0.72
+      - 0.69
+  optimizer:
+    values:
+      - 'Adam'
+      - 'SGD'
+program: scripts/train_CNNs/AlexNet.py
