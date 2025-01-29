@@ -13,7 +13,7 @@ from pckgs.networks.recurrent_vision_transformer import *
 hp_defaults = dict(
     lr=0.00007,
     warmup=0,
-    batch_size=64,
+    batch_size=4,
     lr_decay=0.84,
     n_epochs=15,
     train_option=1,
