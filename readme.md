@@ -12,7 +12,7 @@
 5. Install matplotlib, timm and ART packages via pip
    - _command_: pip install matplotlib==3.7.0
    - _command_: pip install timm==0.9.0
-   - _command_: adversarial-robustness-toolbox==1.16.0
+   - _command_: pip install adversarial-robustness-toolbox==1.16.0
 
 # Usage
 ### config
